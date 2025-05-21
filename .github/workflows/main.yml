@@ -14,11 +14,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-  - name: Set up Flutter
-  uses: subosito/flutter-action@v2
-  with:
-    flutter-version: '3.13.0'  # Updated to ensure compatibility with Dart SDK >= 3.5.0
-          
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.13.0'  # Dart 3.5.0+ compatibility
 
       - name: Install dependencies
         run: flutter pub get
