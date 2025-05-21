@@ -75,12 +75,11 @@
     },
     {
       "name": "http",
-      "version": "1.2.2",
+      "version": "1.1.0",
       "dependencies": [
         "async",
         "http_parser",
-        "meta",
-        "web"
+        "meta"
       ]
     },
     {
@@ -615,11 +614,6 @@
       ]
     },
     {
-      "name": "web",
-      "version": "1.1.1",
-      "dependencies": []
-    },
-    {
       "name": "http_parser",
       "version": "4.1.2",
       "dependencies": [
@@ -835,6 +829,11 @@
         "collection",
         "meta"
       ]
+    },
+    {
+      "name": "web",
+      "version": "1.1.1",
+      "dependencies": []
     },
     {
       "name": "plugin_platform_interface",
